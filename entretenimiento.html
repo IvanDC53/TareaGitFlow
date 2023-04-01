@@ -1,8 +1,88 @@
 <html>
     <head>
-        <title></title>
+        <title>Entretenimiento</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     </head>
     <body>
-        
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="pasatiempo.html"><i class="bi bi-battery-charging" style="font-size: 2rem;"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="juegos.html"><i class="bi bi-joystick"></i>Juegos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="entretenimiento.html"><i class="bi bi-eye-fill"></i>Entretenimiento</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-mouse2-fill"></i>
+                            Sitios mas visitados
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="https://www.twitch.tv/"><i class="bi bi-twitch" style="color: rgb(156, 4, 156);"></i> Twitch</a></li>
+                                <li><a class="dropdown-item" href="https://www.tiktok.com/"><i class="bi bi-tiktok" style="color: black;"></i> TikTok</a></li>
+                                <li><a class="dropdown-item" href="https://www.youtube.com/"><i class="bi bi-youtube" style="color: red;"></i> YouTube</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="display-4">Entretenimiento</h1>
+                <p class="lead">Entretenimiento o entretención es cualquier actividad que permite a los seres humanos emplear su tiempo libre para divertirse o recrear su ánimo con una distracción, evitando el aburrimiento y evadiéndose temporalmente de sus preocupaciones, alegrándose o deleitándose; por ejemplo, jugando o leyendo.</p>
+                <hr class="my-4">
+                <p><h3>Mis Cosas favoritas para entretenerme son:</h3></p>
+                <div class="card-group">
+                <div class="card">
+                    <div class="container-fluid">
+                        <img src="imagenes/avengers.jpg" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ver Peliculas</h5>
+                            <p class="card-text">Película es un término que proviene del latín pellicŭla y que tiene diversos usos. Su acepción más habitual está vinculada a la obra cinematográfica que suele narrar una historia escrita o adaptada por un guionista y cuya puesta en escena depende de un director.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="container-fluid">
+                        <img src="imagenes/onepiece.jpg" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ver anime</h5>
+                            <p class="card-text">El concepto como tal se usa para nombrar a los dibujos animados o caricaturas de origen japonés, pero en cierto modo, fue una manera magnífica de llevar a la pantalla las grandiosas historias de los mangas. El anime ha sido un fenómeno cultural y de entretenimiento no sólo en Japón, si no que ha tenido un alcance a nivel internacional. Es una disciplina audiovisual muy vinculada al manga y a la animación.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="container-fluid">
+                        <img src="imagenes/vikins.jpg" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Extra:</b> Series</h5>
+                            <p class="card-text">Una serie de televisión es una obra de carácter audiovisual y generalmente narrativa que se difunde por televisión, en entregas periódicas, manteniendo cada una de ellas una unidad y continuidad argumental o al menos temática con los episodios anteriores y posteriores. Puede constar de una o más temporadas.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="alert alert-primary d-flex align-items-center" role="alert">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+                      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                    </svg>
+                    <div>
+                      Estos son mis gustos hasta la fecha<strong> Podrian cambiar con el tiempo.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
     </body>
 </html>
